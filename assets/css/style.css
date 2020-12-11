@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+  padding: 20px 35px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header nav{
+  margin: 7px 0;
+}
+
+header a{
+  text-decoration: none;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li a{
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+section{
+  padding: 60px;
+}
+
+.hero{
+  background-image: url(../images/mountains.jpg);
+  background-size: cover;
+  background-position: 80%;
+}
