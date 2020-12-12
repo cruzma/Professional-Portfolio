@@ -10,10 +10,11 @@ body{
 
 header{
   padding: 20px 35px;
-  background-color: orange;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
 }
 
 header nav{
@@ -33,7 +34,7 @@ header nav ul{
 header nav ul li a{
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 1.4rem
 }
 
 section{
@@ -44,4 +45,9 @@ section{
   background-image: url(../images/mountains.jpg);
   background-size: cover;
   background-position: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
