@@ -364,5 +364,6 @@ footer{
 
       header nav ul li a{
         font-size: 1rem;
+        margin: 3px;
       }
   }
