@@ -17,7 +17,7 @@ body{
 header{
   padding: 20px 35px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
   position: absolute;
   width: 100%;
@@ -166,14 +166,19 @@ section h2{
 
 .grid-item div{
   background-color: rgba(68, 88, 119, 1);
-  padding:  0  20px 0 10px;
+  padding:  0  10px 0 10px;
   border-radius: 10%;
 }
 
+.run-buddy{
+  background-image: url(../images/02-run-buddy.jpg);
+  background-size: cover;
+  grid-column: 2 / span 5;
+  grid-row: 1 / span 2;
+}
 .surf-report{
   background-image: url(../images/02-portfolio-4.jpg);
   background-size: cover;
-  grid-row: 2;
   
 }
 
@@ -192,16 +197,10 @@ section h2{
 .pastel-puzzle{
   background-image: url(../images/02-portfolio-3.jpg);
   background-size: cover;
-  grid-row: 2;
   
 }
 
-.run-buddy{
-  background-image: url(../images/02-run-buddy.jpg);
-  background-size: cover;
-  grid-column: 2 / span 5;
-  grid-row: 1 / span 2;
-}
+
 
 /* Work section ends */
 
@@ -278,3 +277,92 @@ footer{
   background-color: rgba(68, 88, 119, 1);
   color:rgba(238, 238, 247, 1);
 }
+
+/*footer ends*/
+
+/* MEDIA QUERY FOR SMALL SCREENS, tablets and below */
+
+@media screen and (max-width: 975px){
+
+  .about-me-info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me-info p{
+    margin: 20px;
+    text-align: center;
+  }
+  .run-buddy {
+    grid-column: 2 / span 11;
+    }
+  .surf-report {
+    grid-column: 2/ span 5;
+    }
+  .led-wall {
+    grid-column: 8 / span 5;
+    }
+  .react-calc {
+    grid-column: 2/ span 5;
+    }
+  .pastel-puzzle {
+    grid-column: 8 / span 5;
+    }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND BELOW*/
+
+  @media screen and (max-width: 735px){
+
+    header{
+      justify-content: center;
+    }
+
+    .hero{
+      background-position: 28%;
+    }
+    .about-me-info p{
+      width: 100%;
+    }
+    .surf-report {
+      grid-column: 2/ span 11;
+      }
+    .led-wall {
+      grid-column: 2 / span 11;
+      }
+    .react-calc {
+      grid-column: 2/ span 11;
+      }
+    .pastel-puzzle {
+      grid-column: 2 / span 11;
+      }
+
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+      .contact-container p{
+        text-align: center;
+   }
+
+      .contact-form{
+        margin-top: 40px;
+      }
+  }
+
+  /* MEDIA QUERY FOR MOBILE DEVICES */
+
+  @media screen and (max-width: 450px){
+      header{
+        padding: 0;
+      }
+      .hero h1{
+        font-size: 35px;
+      }
+
+      header nav ul li a{
+        font-size: 1rem;
+      }
+  }
