@@ -319,6 +319,9 @@ footer{
       justify-content: center;
     }
 
+    header nav ul li a{
+      margin: 3px;
+    }
     .hero{
       background-position: 28%;
     }
