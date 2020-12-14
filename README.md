@@ -35,4 +35,4 @@ Used flexbox and space between spread the content across entire length of screen
 
 ## Website example below
 
-<img src="assets/images/The-Cruz.jpg>
+![alt text](https://github.com/cruzma/Professional_Portfolio/blob/main/The-Cruz.jpg?raw=true>
