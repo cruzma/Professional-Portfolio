@@ -296,10 +296,10 @@ footer{
   .run-buddy {
     grid-column: 2 / span 11;
     }
-  .surf-report {
+  .poke-parte {
     grid-column: 2/ span 5;
     }
-  .led-wall {
+  .e-z-budget {
     grid-column: 8 / span 5;
     }
   .react-calc {
@@ -328,10 +328,10 @@ footer{
     .about-me-info p{
       width: 100%;
     }
-    .surf-report {
+    .poke-parte {
       grid-column: 2/ span 11;
       }
-    .led-wall {
+    .e-z-budget {
       grid-column: 2 / span 11;
       }
     .react-calc {
